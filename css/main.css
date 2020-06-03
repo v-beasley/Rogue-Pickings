@@ -1,0 +1,143 @@
+/***** BASE STYLES ******/
+#container {
+    width:1200px;
+    margin:auto;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;}
+
+#about{
+    height: 110px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;    
+    float: left;
+}
+.third-width-border {
+    width: 399px;    
+    float: left;
+}
+/***** HEADER *****/
+
+header h1 {
+    font-size: 30px; 
+    text-transform: uppercase;
+    padding-top: 16px;
+    line-height: 23px;
+}
+
+header h1 span {
+    color:#77a466;
+}
+
+nav {
+    float: right; 
+    margin: 0px 7px 43px 0px;
+    word-spacing: 25px;
+    position: top center;
+    padding-top: 18px;
+    line-height: 23px;
+
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466;
+    font-weight: bold;
+}
+header .full-width {
+    height: 400px;
+    background: url('../img/hero.png');
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    clear:both;
+}
+/***** ABOUT *****/
+#about{
+    margin: 30px 0px 34px;
+}
+#about h2{
+    color:#77a466;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#about p{
+    font-size: 16px;
+    line-height: 25px;
+}
+/***** CONTENT *****/
+#content {
+     text-align: left;
+     padding: 0px 0px 25px 20px;
+     overflow: auto;
+}
+.third-width{
+    border: 1px solid #eeeeee;
+    border-style: solid hidden solid hidden;
+    height: 210px;
+}
+.third-width-border{
+    border: 1px solid #eeeeee;
+    border-style: solid solid solid hidden;
+    height:210px;
+}
+#content h4{
+    font-size: 12px;
+    line-height: 25px;
+    padding-left:25px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 165px;
+}
+#content p{
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0px 25px 0px 25px;
+}
+p span{
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: capitalize;
+    
+}
+
+/***** FOOTER *****/
+#footer{
+    text-align: center;
+    clear:both;
+    height: 78px;
+}
+#footer h3{
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#footer h3 span{
+    color:#77a466;
+    font-family: 'Galada', 'cursive';
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: lowercase;
+}
+
